@@ -1,3 +1,9 @@
+<?php
+$radek=1;
+$pocetRadku=5;
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,7 +24,7 @@
         </thead>
         <tbody>
             <tr>
-                <td>prvni sloupec</td>
+                <td><?php while($radek<=$pocetRadku){echo $radek; $radek=$radek+1;};?></td>
                 <td>druhy sloupec</td>
             </tr>
         </tbody>
